@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precisions Home Plans</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Precisions Home Plans</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Designs Built for Living</h2>
+    <p>Beautiful, practical, and customizable residential home plans—crafted to fit your lifestyle.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Precisions Home Plans, we specialize in turning dream homes into tangible designs. With years of experience and a passion for detail, we create plans tailored to every family's vision.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <!-- Sample images -->
+      <img src="images/modern-home.jpg" alt="Modern home design" />
+      <img src="images/ranch-style.jpg" alt="Ranch style home" />
+      <img src="images/tiny-home.jpg" alt="Tiny home layout" />
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <blockquote>
+      “We absolutely loved working with Precisions Home Plans. The designs were stunning and fit perfectly with our needs.” — Jamie R., Tallahassee
+    </blockquote>
+    <blockquote>
+      “Professional, responsive, and creative. Highly recommend!” — Alex T., Crawfordville
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@precisionshomeplans.biz</p>
+    <p>Phone: (123) 456-7890</p>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message"></textarea><br />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Precisions Home Plans. All rights reserved.</p>
+  </footer>
+</body>
+</html>
